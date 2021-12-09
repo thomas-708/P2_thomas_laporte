@@ -1,0 +1,98 @@
+ /* :root {
+    --bleu: #fc0000;
+    --bleu-clair: #deebff;
+    --gris: #f2f2f2;
+    --police: #000000;
+    --white: #ffffff;
+} */
+
+
+.body {
+    font-size: 11px;
+}
+
+header,main{
+    
+    margin: 0 10px 0 20px;
+}
+#research{
+   
+    margin: 0px;
+
+}
+
+.filter {
+    
+      margin-left: 0px; 
+}
+.filter_bouton { 
+    margin: 0px 0px;
+}
+header .logo {
+    
+    margin: 10px 0 0 50px;
+    width: 100px;
+}
+
+nav .Intern-Link:hover{
+    padding-top: clamp(10px,15px,20px);
+}
+
+.active {
+    border-style: solid none none none;
+    padding-top: 14px;
+    color:var(--bleu);
+}
+.cart-content{
+    display: flex;
+    flex-flow: column wrap ;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+.cart-content .heberg {
+    width: 100%;
+    order: 2;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+.cart-content .polulary {
+    order: 1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.cart-img-s{
+
+    width: 30%;    
+
+}
+.secondary-title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 10px 25px;
+
+}
+
+.activity-img-A{
+    background-size: 360%;
+}
+
+.activity-img-B{
+    background-size: 120%;
+}
+
+.activity-img-E{
+    height: 390px;
+}
+
+.activity-img-F{
+    background-size: 135%;
+
+    height: 200px;
+}
